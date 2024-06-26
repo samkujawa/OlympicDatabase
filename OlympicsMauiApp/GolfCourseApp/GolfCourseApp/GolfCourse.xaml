@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             x:Class="GolfCourseApp.GolfCourse"
+             Title="Fairway Finder"
+             Shell.BackgroundColor="Green">
+
+
+    <ScrollView>
+
+        <StackLayout>
+            <Label Text="Welcome! Start by Searching for a golf course of your chice in the search bar." FontAttributes="Bold" HorizontalOptions="Center" FontSize="Medium" Margin="0,10,0,10"/>
+            <SearchBar x:Name="SearchBar"
+           Placeholder="Enter golf course name"
+           Text="{Binding SearchQuery, Mode=TwoWay}"
+           TextColor="Black"
+           BackgroundColor="#EFEFEF" 
+           PlaceholderColor="#999999" 
+           Margin="10,0,10,10"
+           FontSize="Large"/>
+
+            <Button Text="Search"
+        Command="{Binding SearchCommand}"
+        Margin="10,10,10,10"
+        FontSize="Large"
+        BackgroundColor="DodgerBlue" 
+        TextColor="White"/>
+
+
+            <ListView ItemsSource="{Binding GolfCourses}" 
+          SelectedItem="{Binding SelectedCourse}"
+          SelectionMode="Single"
+          BackgroundColor="{Binding CurrentTheme.BackgroundColor}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" Detail="{Binding State}" />
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                    <Image Source="logo.png" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="End" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

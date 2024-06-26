@@ -1,0 +1,58 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OlympicsMauiApp;assembly=OlympicsMauiApp"
+             x:Class="OlympicsMauiApp.AthletesPage">
+
+    <Grid RowDefinitions="2*,3*,3*" 
+          ColumnDefinitions="250,*,500">
+
+        <ListView x:Name="countriesListView" 
+                  Grid.Row="0" 
+                  Grid.Column="0"
+                  ItemSelected="OnCountrySelected" 
+                  VerticalScrollBarVisibility="Always" 
+                  BackgroundColor="White"
+                  Margin="0,0,0,10"/> 
+
+        <ListView x:Name="sportsListView" 
+                  Grid.Row="1" 
+                  Grid.Column="0"
+                  ItemSelected="OnSportSelected" 
+                  VerticalScrollBarVisibility="Always" 
+                  BackgroundColor="White"
+                  Margin="0,20,0,10"/>
+
+        <ListView x:Name="eventsListView" 
+                  Grid.Row="0" 
+                  Grid.Column="1" 
+                  Grid.RowSpan="2"
+                  Grid.ColumnSpan="2"
+                  ItemSelected="OnEventSelected" 
+                  VerticalScrollBarVisibility="Always" 
+                  BackgroundColor="White"/>
+
+        <ListView x:Name="athletesListView" 
+                  Grid.Row="2" 
+                  Grid.Column="0" 
+                  Grid.ColumnSpan="3"
+                  ItemSelected="OnAthleteSelected" 
+                  VerticalScrollBarVisibility="Always"
+                  Margin="0,10,0,0"> 
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Image Source="{Binding MedalImage}" 
+                                   WidthRequest="30" 
+                                   HeightRequest="30"/>
+                            <Label Text="{Binding Name}" 
+                                   TextColor="{Binding TextColor}" 
+                                   FontSize="Large"
+                                   VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

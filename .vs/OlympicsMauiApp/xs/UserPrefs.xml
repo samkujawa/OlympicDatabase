@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{FA3DB331-07A1-42CC-988B-14FF2872228A}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.OlympicsMauiApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EDADA9A-AD6C-45DC-9D6F-CC4A903A413D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OlympicsMauiApp/AthletesPage.xaml.cs">
+    <Files>
+      <File FileName="OlympicsMauiApp/Participant2016Summer.cs" />
+      <File FileName="OlympicsMauiApp/AthletesPage.xaml.cs" Line="21" Column="80" />
+      <File FileName="OlympicsMauiApp/AthletesPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OlympicsMauiApp" expanded="True">
+            <Node name="OlympicsMauiApp" expanded="True">
+              <Node name="AthletesPage.xaml" expanded="True">
+                <Node name="AthletesPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EDADA9A-AD6C-45DC-9D6F-CC4A903A413D" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

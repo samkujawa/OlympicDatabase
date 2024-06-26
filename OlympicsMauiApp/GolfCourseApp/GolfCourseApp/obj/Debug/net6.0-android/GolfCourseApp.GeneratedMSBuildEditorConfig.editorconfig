@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GolfCourseApp
+build_property.ProjectDir = /Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/Favorites.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.Favorites.xaml
+build_metadata.AdditionalFiles.TargetPath = Favorites.xaml
+build_metadata.AdditionalFiles.RelativePath = Favorites.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/GolfCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.GolfCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = GolfCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = GolfCourse.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/GolfCourseDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.GolfCourseDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GolfCourseDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GolfCourseDetailPage.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegistrationPage.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/Resources/Themes/DarkTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.Resources.Themes.DarkTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Themes/DarkTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Themes/DarkTheme.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/Resources/Themes/LightTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.Resources.Themes.LightTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Themes/LightTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Themes/LightTheme.xaml
+
+[/Users/sujo/Desktop/cse382_kujawasj/GolfCourseApp/GolfCourseApp/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GolfCourseApp.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings.xaml

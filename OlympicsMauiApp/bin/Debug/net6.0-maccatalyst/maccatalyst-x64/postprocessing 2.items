@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="OlympicsMauiApp.app/Contents/MacOS/OlympicsMauiApp">
+      <BCSymbolMapName>OlympicsMauiApp.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>OlympicsMauiApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/sujo/Desktop/cse382_kujawasj/Project3/OlympicsMauiApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>OlympicsMauiApp.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/sujo/Desktop/cse382_kujawasj/Project3/OlympicsMauiApp</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

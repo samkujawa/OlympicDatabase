@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalProject
+build_property.ProjectDir = /Users/sujo/Desktop/miami/Miami Classwork/Senior Year/Fall/cse382_kujawasj/FinalProject/FinalProject/
+
+[/Users/sujo/Desktop/miami/Miami Classwork/Senior Year/Fall/cse382_kujawasj/FinalProject/FinalProject/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalProject.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/sujo/Desktop/miami/Miami Classwork/Senior Year/Fall/cse382_kujawasj/FinalProject/FinalProject/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalProject.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/sujo/Desktop/miami/Miami Classwork/Senior Year/Fall/cse382_kujawasj/FinalProject/FinalProject/GolfCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalProject.GolfCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = GolfCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = GolfCourse.xaml
+
+[/Users/sujo/Desktop/miami/Miami Classwork/Senior Year/Fall/cse382_kujawasj/FinalProject/FinalProject/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalProject.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/sujo/Desktop/miami/Miami Classwork/Senior Year/Fall/cse382_kujawasj/FinalProject/FinalProject/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalProject.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
